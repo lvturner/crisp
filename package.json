@@ -26,8 +26,8 @@
   "dependencies" : {
     "colors"   :  "*",
     "pem" : "*",
-    "optimist" : "*"
-      
+    "optimist" : "*",
+    "mime": "*"
   },
   "analyze": false,
   "devDependencies": {
