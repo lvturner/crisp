@@ -1,0 +1,41 @@
+{
+  "name": "crisp",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Lee Turner <lvturner@me.com>",
+  "description": "Serve files (for development/testing) painlessly over HTTPS from the current directory, doesn't require you to generate an SSL certificate",
+  "contributors": [ 
+    {
+      "name": "Lee Turner",
+      "email": "lvturner@me.com"
+    } 
+  ],
+  "bin": {
+    "crisp": "./bin/crisp.js"
+  },
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvx3/crisp.git"
+  },
+  "homepage": "https://github.com/lvx3/crisp",
+  "keywords": [
+    "https",
+    "zero-config"
+  ],
+  "dependencies" : {
+    "colors"   :  "*",
+    "pem" : "*",
+    "optimist" : "*"
+      
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
