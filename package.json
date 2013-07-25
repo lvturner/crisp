@@ -27,7 +27,8 @@
     "colors"   :  "*",
     "pem" : "*",
     "optimist" : "*",
-    "mime": "*"
+    "mime": "*",
+    "graceful-fs": "*"
   },
   "analyze": false,
   "devDependencies": {
