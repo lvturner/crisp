@@ -11,8 +11,11 @@ $ npm install crisp
 ```
 Serve files painlessly over HTTPS from the current directory
 
- Usage: $ crisp -p 4443
+Usage: $ crisp
 
 Options:
-  -p, --port  Set port to listen on  [default: 4443]
+  -k, --key          Pre-existing key file
+  -c, --certificate  Pre-existing certificate file
+  -x, --export       Export auto-generated key and certificate (saves to crisp.key and crisp.crt)  [default: false]
+  -p, --port         Set port to listen on                                                         [default: 4443] 
 ```
