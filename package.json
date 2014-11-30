@@ -8,7 +8,11 @@
     {
       "name": "Lee Turner",
       "email": "lvturner@me.com"
-    } 
+    },
+    {
+      "name": "Kenan Yildirim",
+      "email": "kenan@kenany.me"
+    }
   ],
   "bin": {
     "crisp": "./bin/crisp.js"
